@@ -1,0 +1,22 @@
+1.first you have to install yarn at your development phases -npm install --global yarn
+
+2.create a package.json file using this command - npm init -y
+
+3.install express, typescript, mongoose, dotenv 
+
+--yarn add express mongoose dotenv
+yarn add -D typescript
+
+4.create the tsc config file with the command tsc --init
+
+5.config the tsc file like rootDir and outDir to src , dist respectively
+
+6.create a dotenv file (.env) file
+
+7. create a .gitignore file and add node_modules and .env in there
+
+8- set up env config and database
+
+9- set up ts-node-dev by installing npm i ts-node-dev
+
+10. add script - ts-node-dev --respawn --transpile-only server.ts
